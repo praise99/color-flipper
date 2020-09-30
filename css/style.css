@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Poppins', sans-serif;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+.top-left{
+    padding-top: -2rem;
+    color: blue;
+}
+.top-right{
+    padding-top: -5rem;
+}
+
+.bottom{
+    background-color: red;
+    text-align: center;
+    height: 613px;
+    
+}   
+.title{
+    color: white;
+    padding-top: 10rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.title-sub{
+    color: blue;
+    text-align: center;
+}
+.btn-click{
+    color: black;
+    border: 3px solid black;
+    padding: 0.9rem;
+    background-color: red;
+    width: 8rem;
+    border-radius: 0.8rem;
+}
+button:hover{
+    border: 3px solid white;
+    color: white;
+}
+button:active{
+    border: 3px solid white;
+    color: white;
+}
